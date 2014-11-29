@@ -6,6 +6,5 @@ install: echo "My projects will be configurable in an awesomical way ;)."
 script: mvn clean verify
 
 jdk:
-  - oraclejdk6
   - oraclejdk7
   - oraclejdk8

@@ -1,4 +1,4 @@
-# Config Suite ![Build Status](https://api.travis-ci.org/repositories/delr3ves/java-config-suite.svg)
+# Config Suite [![Build Status](https://api.travis-ci.org/repositories/delr3ves/java-config-suite.svg)](https://travis-ci.org/delr3ves/java-config-suite)
 
 =================
 
