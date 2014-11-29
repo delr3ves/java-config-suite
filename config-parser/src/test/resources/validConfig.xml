@@ -1,0 +1,9 @@
+<config>
+    <anyString>irrelevantString</anyString>
+    <anyBoolean>true</anyBoolean>
+    <anyNumber>4</anyNumber>
+    <anyList>
+        <item>item1</item>
+        <item>item2</item>
+    </anyList>
+</config>

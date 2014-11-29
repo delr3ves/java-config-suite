@@ -1,0 +1,4 @@
+anyString: "irrelevantString"
+anyBoolean: true
+anyList: ["item1", "item2"]
+anyNumber: 4
