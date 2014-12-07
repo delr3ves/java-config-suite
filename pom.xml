@@ -29,7 +29,6 @@
         <system>jenkins</system>
         <url>https://travis-ci.org/delr3ves/java-config-suite/</url>
     </ciManagement>
-
     <modules>
         <module>config-provider-core</module>
         <module>config-provider-api</module>
@@ -45,6 +44,9 @@
         <tag>HEAD</tag>
     </scm>
 
+    <properties>
+        <sourceEncoding>UTF-8</sourceEncoding>
+    </properties>
 
     <build>
         <plugins>
@@ -55,6 +57,7 @@
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
+                    <encoding>${sourceEncoding}</encoding>
                 </configuration>
             </plugin>
             <plugin>
@@ -85,6 +88,14 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <repoToken>R1f9bMLrpgITYxCnvXC1bkPtl2jbGUxKo</repoToken>
+                </configuration>
             </plugin>
         </plugins>
     </build>
