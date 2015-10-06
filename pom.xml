@@ -119,7 +119,7 @@
                 <executions>
                     <execution>
                         <id>javadoc</id>
-                        <phase>verify</phase>
+                        <phase>deploy</phase>
                         <goals>
                             <goal>javadoc</goal>
                             <goal>jar</goal>
@@ -135,7 +135,7 @@
                 <executions>
                     <execution>
                         <id>attach-sources</id>
-                        <phase>verify</phase>
+                        <phase>deploy</phase>
                         <goals>
                             <goal>jar-no-fork</goal>
                         </goals>
@@ -149,7 +149,7 @@
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
-                        <phase>verify</phase>
+                        <phase>deploy</phase>
                         <goals>
                             <goal>sign</goal>
                         </goals>
@@ -178,9 +178,19 @@
                     <goals>deploy nexus-staging:release</goals>
                 </configuration>
             </plugin>
-            <!-- -->
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>oss</id>
+            <build>
+                <plugins>
+
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
     <dependencies>
         <dependency>
