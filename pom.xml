@@ -45,8 +45,8 @@
 
     <scm>
         <connection>scm:git:https://github.com/delr3ves/java-config-suite.git</connection>
-        <developerConnection>scm:git@github.com:delr3ves/java-config-suite.git</developerConnection>
-        <url>git@github.com:delr3ves/java-config-suite</url>
+        <developerConnection>scm:git:git@github.com:delr3ves/java-config-suite.git</developerConnection>
+        <url>https://github.com/delr3ves/java-config-suite</url>
     </scm>
 
     <properties>
