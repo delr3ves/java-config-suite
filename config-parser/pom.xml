@@ -4,7 +4,7 @@
     <parent>
         <artifactId>config-suite</artifactId>
         <groupId>com.emaginalabs</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>config-parser</artifactId>
